@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+    <title>Data Covid-19</title>
+  </head>
+  <body>
+    <!-- Nav-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Dashboard</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="searching.html">Search</a>
+        </li>
+        <li class="nav-item">
+            <!-- <a class="nav-link" href="index.html">Home</a> -->
+        </li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <header
+      class="bg-danger py-5"
+      style="
+        background-image: url(https://www.inverness-courier.co.uk/_media/img/0T72GI8QL7SZB0CW4UHT.jpg);
+      "
+    >
+  <main>
+    <div class="container">
+        <div class="row mt-3 justify-content-center">
+            <div class="col-md-8">
+                <h2 class="text-center text-white ">DASHBOADR ANALYTICS COVID19</h2>
+                <br>
+                <div class="input-group mb-3">
+                    <input type="text" class= "search form-control " placeholder="Search Country...">
+                    <div class="input-group-append">
+                      <button class="btn btn-dark" type="button" id="search-button">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+      <br>
+      <br>
+      <div class="container">
+      <div class="suggestions row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4"></div>
+      </div>
+</main>
+
+  </body>
+  <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
